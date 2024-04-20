@@ -47,7 +47,7 @@ const Navbar = () => {
                 <div>
                     <div className='flex items-center justify-between py-3'>
                     <div className='md:py-5 md:block'>
-                        <h2 className='text-2xl font-bold'>Haseeb Ijaz Logo/Name</h2>
+                        <h2 className='text-2xl font-bold'>Haseeb Ijaz</h2>
                     </div>
                     <div className='md:hidden'>
                         <button onClick={() => setIsNavbarOpen(!isNavbarOpen)}>
