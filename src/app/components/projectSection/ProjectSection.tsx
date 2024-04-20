@@ -56,9 +56,9 @@ const ProjectSection = () => {
                                         <h1 className='text-4xl font-bold mb-6'>{project.name}</h1>
                                         <p className='text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400 '>{project.description}</p>
                                         <div className='flex flex-row align-bottom space-x-4'>
-                                            <Link href={project.github} target='_blank'>
+                                            {/* <Link href={project.github} target='_blank'>
                                                 <BsGithub size={30} className='hover:-translate-y-1 transition-transform cursor-pointer' />
-                                            </Link>
+                                            </Link> */}
                                             <Link href={project.link} target='_blank'>
                                                 <BsArrowUpRightSquare
                                                     size={30}
